@@ -11,7 +11,7 @@ pipeline {
       steps {
         bat 'npm --version'
         bat 'node --version'
-        bat 'npm -i'
+        bat 'npm install'
         bat 'node app'
       }
     } 
