@@ -12,7 +12,7 @@ pipeline {
         bat 'npm --version'
         bat 'node --version'
         bat 'npm install'
-        bat 'node app'
+        bat 'start node app'
       }
     } 
  }
