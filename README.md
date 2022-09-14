@@ -1,4 +1,4 @@
 # nodejs-app
 
-npm install
-node app
+'npm install'
+'node app'
