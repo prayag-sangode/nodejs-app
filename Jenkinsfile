@@ -11,10 +11,7 @@ pipeline {
       steps {
         bat 'npm --version'
         bat 'node --version'
-        bat 'npm install forever -g'
-        bat 'npm list forever -g'
         bat 'npm install'
-        bat 'forever start -c node app.js'
        }
     } 
  }
