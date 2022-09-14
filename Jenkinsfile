@@ -9,7 +9,7 @@ pipeline {
     }
     stage('Build') {
       scripts: {
-          "forever" : "forever"
+          forever : "forever"
       }
       steps {
         bat 'npm --version'
