@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git([url: 'https://github.com/prayag-sangode/java-maven-app.git', branch: 'main', credentialsId: 'github-id'])
+        git([url: 'https://github.com/prayag-sangode/nodejs-app.git', branch: 'main', credentialsId: 'github-id'])
 
       }
     }
