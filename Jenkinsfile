@@ -8,6 +8,9 @@ pipeline {
       }
     }
     stage('Build') {
+      "scripts": {
+          "forever" : "forever"
+      }
       steps {
         bat 'npm --version'
         bat 'node --version'
