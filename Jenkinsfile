@@ -8,16 +8,13 @@ pipeline {
       }
     }
     stage('Build') {
-      scripts: {
-          forever : "forever"
-      }
       steps {
         bat 'npm --version'
         bat 'node --version'
         bat 'npm install forever -g'
         bat 'npm list forever -g'
         bat 'npm install'
-        bat 'npm run forever start app.js'
+        bat 'forever start -c node app.js'
        }
     } 
  }
