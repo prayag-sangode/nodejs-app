@@ -8,7 +8,7 @@ pipeline {
       }
     }
     stage('Build') {
-      "scripts": {
+      scripts: {
           "forever" : "forever"
       }
       steps {
