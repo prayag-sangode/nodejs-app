@@ -14,7 +14,7 @@ pipeline {
         bat 'npm install forever -g'
         bat 'npm list forever -g'
         bat 'npm install'
-        bat 'C:\Users\prayag\AppData\Roaming\npm\forever start app.js'
+        bat 'forever start app.js'
        }
     } 
  }
