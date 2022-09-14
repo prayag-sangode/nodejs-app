@@ -17,7 +17,7 @@ pipeline {
         bat 'npm install forever -g'
         bat 'npm list forever -g'
         bat 'npm install'
-        bat 'forever start app.js'
+        bat 'npm run forever start app.js'
        }
     } 
  }
