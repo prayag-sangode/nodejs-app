@@ -9,8 +9,10 @@ pipeline {
     }
     stage('Build') {
       steps {
-        sh 'npm -i'
-        sh 'node app'
+        bat 'npm --version'
+        bat 'node --version'
+        bat 'npm -i'
+        bat 'node app'
       }
     } 
  }
